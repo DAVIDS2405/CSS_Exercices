@@ -1,0 +1,34 @@
+body{
+    background: linear-gradient(to right, #ff416c, #ff4b2b);
+}
+
+.Nav-bar  ul,a {
+    text-decoration: none;
+    list-style: none;
+    color: rgb(255, 255, 255);
+    
+}
+
+.Nav-bar a{
+   display: flex;
+   flex-direction:column;
+   -ms-flex-item-align: center;
+   align-items: flex-end;
+   padding: 10px;
+   text-align: center;
+   
+}
+
+.Section1 h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.Section1 img{
+    margin-left: 40%;
+}
+.Fotter{
+    text-align: center;
+}
+.Fotter p{
+    margin-top: 190px;
+}
