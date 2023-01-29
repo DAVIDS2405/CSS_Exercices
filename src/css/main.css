@@ -1,15 +1,19 @@
-/* 
-    -------- Regla de CSS ---------
-
-    selector {
-        propiedad : valor ;
-    }
-
-    -------------------------------
-
+/* - Otros atriutos = [atributo]
+= [atributo=valor]
+= [atributo^=valor] -- Busca al principio
+= [atributo*=valor] -- Busca en cualquier parte
+= [atributo$=valor] -- Busca al final
+= [atributo|=valor] -- Para temas de idiomas 
 */
 body{
     background: linear-gradient(to right, #ff416c, #ff4b2b);
+}
+
+#title {
+    background-color: #a61c31;
+}
+.text {
+    background-color: lightskyblue;
 }
 
 .Nav-bar  ul,a {
@@ -41,4 +45,20 @@ body{
 }
 .Fotter p{
     margin-top: 190px;
+}
+[href] {
+    background-color: #4579e3;
+}
+[href^= "rojo"]{
+    background-color: rgb(0, 0, 0);
+}
+[href*="azul"]{
+    background-color: #0055ff;
+}
+[href = "#cafe"]{
+    background-color: #cc6d00;
+}
+
+[lang|=en-GB] {
+    background-color: rgb(179, 0, 0);
 }
