@@ -47,24 +47,18 @@ body{
     margin-top: 190px;
 }
 
-h2.title-1 {
-    background-color: yellow;
+.title-1{
+    color: teal;
+    font-size: 50px;
 }
-
-.text-1,.text-2{
-background-color: lightskyblue;
+.text-4{
+    color: lightsalmon;
+    font-size: 20px;
 }
-.Fotter #fotter-1{
-    background-color: lightpink
+.link {
+    /* Obligar a que SI tome las propiedades del padre */
+    color: inherit;
 }
-
-.title-3 +.text-3 {
-    background-color: lightslategrey;
-}
-/*  Selectores todos los hermanos siguientes */
-.text-4~p {
-    background-color: rgb(236, 236, 8);
-}
-.container > p {
-    background-color: lightpink;
+.link2{
+    color: initial;
 }
